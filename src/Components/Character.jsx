@@ -1,9 +1,8 @@
 function Character(props) {
     //Body
-    const char = props.character;
-return (
+    return (
     <div>
-        <h2>{char.name}</h2>
+        <h2>{props.name}</h2>
     </div>
     );
 }

@@ -1,15 +1,16 @@
-import CharacterData from '../data/CharacterData.json';
+import characterData from '../data/characterData.json';
 import Character from './Character';
 
 function CharacterGallery() {
     //Body
-    console.log(CharacterData);
-return (
+    // console.log(CharacterData);
+    return (
     <div> 
-        {CharacterData.map(
+        { CharacterData.map(
             (character) => <Character 
-                key={character.id} name={character.name} 
-                />
+                key={character.id} 
+                name={character.name}
+            />
         )}
     </div>
     );
