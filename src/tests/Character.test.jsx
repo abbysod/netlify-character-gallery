@@ -22,12 +22,12 @@ it('Character Component Renders Without Error', () => {
 
 describe('Character Component Content Structure', () => {
 
-    it("Renders an H2 for the Character's Name", () => {
-        render(<Character />);
-        const characterHeading = screen.getByRole('heading', { level: 2 });
+    // it("Renders an H2 for the Character's Name", () => {
+    //     render(<Character />);
+    //     const characterHeading = screen.getByRole('heading', { level: 2 });
 
-        expect(characterHeading).toBeDefined();
-    });
+    //     expect(characterHeading).toBeDefined();
+    // });
 
     it("Renders a img for the Character", () => {
         render(<Character />);

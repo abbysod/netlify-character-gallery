@@ -1,10 +1,10 @@
 import './App.css'
-import CharacterGallery from './components/CharacterGallery';
+import CharacterGallery from './components/CharacterGallery'
 
 function App() {
-   return (
-      <CharacterGallery/>
-  );
+    return (
+        <CharacterGallery />
+    );
 }
 
-export default App;
+export default App
