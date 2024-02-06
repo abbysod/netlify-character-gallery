@@ -17,7 +17,7 @@ function Character(props) {
             </ul>
      
 
-    </div>
+        </div>
     );
 }
 export default Character;
