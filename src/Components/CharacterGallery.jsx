@@ -5,6 +5,7 @@ function CharacterGallery() {
     console.log(characterData);
     return (
         <div>
+            <p> This is Character Gallery page</p>
             {characterData.map(
                 (character) => <Character 
                 key={character.id}
