@@ -1,5 +1,5 @@
 import './App.css'
-import CharacterGallery from './components/CharacterGallery'
+import CharacterGallery from './Components/CharacterGallery'
 
 function App() {
     return (
